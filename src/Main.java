@@ -8,15 +8,11 @@ public class Main {
         String tryOut = " Hello World! ";
 
         System.out.println(tryOut.length());
-        System.out.println(tryOut.toUpperCase(Locale.ROOT));
-        System.out.println(tryOut.toLowerCase(Locale.ROOT));
+        System.out.println(tryOut.toUpperCase());
+        System.out.println(tryOut.toLowerCase());
         System.out.println(tryOut.replaceFirst("World", "CodersBay"));
         System.out.println(tryOut.stripLeading());
-
-        for (int i = 1; i <= 15; i++) {
-
-            System.out.println(tryOut);
-        }
+        System.out.println((tryOut + "\n").repeat(15));
 
     }
 }
